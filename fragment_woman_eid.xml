@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".womanEid">
+
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="170dp"
+        android:layout_height="228dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="232dp"
+        android:src="@drawable/ewoman" />
+
+    <TextView
+
+        android:layout_width="169dp"
+        android:layout_height="179dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="509dp"
+        android:layout_marginBottom="88dp"
+
+        android:text="Woman can wear Lehanga, Salwar  kameez,Gowns for Eid.\n greet everyone on this auspicious occassion"
+        android:textColor="@color/white" />
+</RelativeLayout>

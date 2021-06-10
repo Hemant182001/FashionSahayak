@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".womanGC">
+
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="170dp"
+        android:layout_height="228dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="239dp"
+        android:src="@drawable/gcwoman" />
+
+    <TextView
+
+        android:layout_width="320dp"
+        android:layout_height="93dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="121dp"
+        android:text="Woman can try Nauvari saree(Traditional Marathi Saree) along with jewellery and can try adorable turban."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+</RelativeLayout>
